@@ -1,0 +1,43 @@
+	<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="color-scheme" content="dark light">
+		<link rel="icon" href="https://thehighlandcafe.github.io/hiosmobile/icons/house.png" type="image/icon type">
+		<link rel="stylesheet" href="css/nav.css" type="text/css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/material-components-web@13.0.0/dist/material-components-web.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="scripts/nav.js"></script>
+		<!--link rel="stylesheet" href="css/homebackground.css" type="text/css"-->
+		<title>HiOSMobile | Home</title>
+	</head>
+	<body>
+		<!--div class="top-bar">
+			<h1 class="top-bar__title">Material Design 2</h1>
+		</div><br-->
+	<center>
+		<div class="container">
+            <iframe id="content" src="https://thehighlandcafe.github.io/hiosmobile/welcome.html"></iframe>
+		</div>
+
+					<nav class="mdc-bottom-navigation">
+					  <a class="mdc-bottom-navigation__item" onclick="home()">
+						<div class="activeIcon" id="homeIcon"><i class="material-symbols-rounded icon">home</i></div>
+						<span class="mdc-bottom-navigation__label" style="display: block;" id="homeLabel">Home</span>
+					  </a>
+					  <a class="mdc-bottom-navigation__item" onclick="restaurant()">
+						<div class="inactiveIcon" id="restaurantIcon"><i class="material-symbols-rounded icon">restaurant</i></div>
+                        <span class="mdc-bottom-navigation__label" style="display: none;" id="restaurantLabel">Restaurant</span>
+					  </a>
+					  <a class="mdc-bottom-navigation__item" onclick="hotel()">
+						<div class="inactiveIcon" id="hotelIcon"><i class="material-symbols-rounded icon">hotel</i></div>
+                        <span class="mdc-bottom-navigation__label" style="display: none;" id="hotelLabel">Hotel</span>
+					  </a>
+					  <a class="mdc-bottom-navigation__item" onclick="more()">
+						<div class="inactiveIcon" id="moreIcon"><i class="material-symbols-rounded icon">dashboard_customize</i></div>
+                        <span class="mdc-bottom-navigation__label" style="display: none;" id="moreLabel">More</span>
+					  </a>
+					</nav>
+			<script src="https://cdn.jsdelivr.net/npm/material-components-web@13.0.0/dist/material-components-web.min.js"></script>
+	</body>
+</html>
