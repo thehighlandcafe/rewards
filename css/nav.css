@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 html {
     height: 100%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    user-select: none;
+    -webkit-user-select: none; /*Safari*/
+    -moz-user-select: none; /*Firefox*/
 }
 
 body {
@@ -11,11 +14,11 @@ body {
   }
 
   .container {
-    margin: 0 auto;
+    position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
   }
 
   .mdc-bottom-navigation {
-    height: 60px;
+    height: 50px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -24,6 +27,8 @@ body {
     display: flex;
     justify-content: space-around;
     z-index: 1000;
+    border-radius: 25px;
+    margin: 10px;
   }
 
   .mdc-bottom-navigation__item {
@@ -42,6 +47,10 @@ body {
   .mdc-bottom-navigation__item--active {
     color: #313538;
   }*/
+
+  .icon, .activeIcon {
+    padding-top: 2px;
+  }
 
   .icon {
     vertical-align: middle !important;
@@ -86,7 +95,7 @@ body {
 
   @media (prefers-color-scheme: dark) {
 	html {
-		background-color: #212829;
+		background-color: #131314;
     }
 
     .mdc-bottom-navigation {

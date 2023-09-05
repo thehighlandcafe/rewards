@@ -1,0 +1,143 @@
+/*Import Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/*Navigation Buttons*/
+.button {
+    width: 350px;
+    height: 110px;
+    background-color: white;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+    border: 0.5px solid #303034;
+}
+
+.button:hover {
+    background-color: #96AFB8;
+}
+
+.button img {
+    width: 50px;
+    float: right;
+}
+
+@media (prefers-color-scheme: dark) {
+    .button {
+        border: none;
+        color: white;
+        background-color: #354A54;
+    }
+
+    .button:hover {
+        background-color: #5A6B74;
+    }
+}
+
+/*Translucent Box*/
+.translucentBox {
+    padding: 10px;
+    width: 350px;
+    background-color: #d3e5ef;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+    .translucentBox {
+        background-color: #293840;
+    }
+}
+
+/*Text*/
+.blue-h2 {
+    color: #1891ac;
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+@media (prefers-color-scheme: dark) {
+    .blue-h2 {
+        color: #EAFDFF;
+    }
+}
+
+/*Back Icons, etc.*/
+.materialBackButtons {
+    font-size: 30px !important;
+}
+
+.back {
+    position: fixed;
+    right: 0;
+}
+
+/*Joins*/
+.joinTop {
+    border-radius: 25px 25px 6px 6px !important;
+	margin-bottom: 5px;
+}
+
+.joinMiddle {
+	border-radius: 6px !important;
+	margin-bottom: 5px;
+}
+
+.joinBottom {
+	border-radius: 6px 6px 25px 25px !important;
+}
+
+.full {
+	border-radius: 25px;
+}
+
+/*Heading Text Container*/
+.headingTitle {
+    margin: 0 auto;
+    width: 350px;
+    padding: 0px;
+}
+
+/*More Container*/
+#moreContainer {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+
+/*More Sections*/
+#secureLogin, #settings, #feedback {
+    display: none;
+}
+
+/*Rounded Image*/
+.roundedImage {
+	border-radius: 25px;
+	border: 0.5px solid #303034;
+}
+
+@media(prefers-color-scheme: dark) {
+    .roundedImage {
+        border: none;
+    }
+}
+
+/*iframe Stylings*/
+.moreIframes {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    width: 100%;
+    border: none;
+}

@@ -31,6 +31,10 @@ function home() {
 
     //Changing the page's title to match the section
     document.title = "HiOSMobile | Home";
+
+    //Hiding More container and showing iframe
+    document.getElementById('moreContainer').style.display = "none";
+    document.getElementById('frameContainer').style.display = "block";
 }
 
 function restaurant() {
@@ -66,6 +70,10 @@ function restaurant() {
 
     //Changing the page's title to match the section
     document.title = "HiOSMobile | Restaurant";
+
+        //Hiding More container and showing iframe
+        document.getElementById('moreContainer').style.display = "none";
+        document.getElementById('frameContainer').style.display = "block";
 }
 
 function hotel() {
@@ -101,6 +109,10 @@ function hotel() {
 
     //Changing the page's title to match the section
     document.title = "HiOSMobile | Hotel";
+
+        //Hiding More container and showing iframe
+        document.getElementById('moreContainer').style.display = "none";
+        document.getElementById('frameContainer').style.display = "block";
 }
 
 function more() {
@@ -132,7 +144,13 @@ function more() {
     document.getElementById('restaurantIcon').className = "inactiveIcon";
 
     //Changing the iframe source
-    document.getElementById('content').src = "https://thehighlandcafe.github.io/hiosmobile/more.html";
+    //document.getElementById('content').src = "https://thehighlandcafe.github.io/hiosmobile/more.html";
+
+    //Hiding the iFrame altogether
+    document.getElementById('frameContainer').style.display = "none";
+
+    //Showing the custom More page
+    document.getElementById('moreContainer').style.display = "block";
 
     //Changing the page's title to match the section
     document.title = "HiOSMobile | More";
