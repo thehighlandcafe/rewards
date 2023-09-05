@@ -140,4 +140,11 @@ p {
     height: 100vh;
     width: 100%;
     border: none;
-}
+    zoom: 0.6;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    .moreIframes {
+      zoom: 1;
+    }
+  }
