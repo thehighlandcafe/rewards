@@ -2,20 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 /*Navigation Buttons*/
-.button {
-    max-width: 350px;
-    min-width: 300px;
-    height: 110px;
-    background-color: white;
-    color: black;
-    font-family: 'Outfit', sans-serif;
-    text-align: left;
-    font-size: 30px;
-    font-weight: bold;
-    transition: 0.5s;
-    border: 0.5px solid #303034;
-}
-
 .button:hover {
     background-color: #96AFB8;
 }

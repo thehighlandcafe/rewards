@@ -1,0 +1,9 @@
+/*Back Icons, etc.*/
+.materialBackButtons {
+    font-size: 30px !important;
+}
+
+.back {
+    position: fixed;
+    right: 0;
+}
