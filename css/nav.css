@@ -18,7 +18,7 @@ body {
   }
 
   .mdc-bottom-navigation {
-    height: 50px;
+    height: 68px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -27,8 +27,8 @@ body {
     display: flex;
     justify-content: space-around;
     z-index: 1000;
-    border-radius: 25px;
-    margin: 10px;
+    /*border-radius: 25px;
+    margin: 10px;*/
   }
 
   .mdc-bottom-navigation__item {
@@ -41,6 +41,10 @@ body {
     color: #313538;
     transition: color 0.2s;
     cursor: pointer;
+  }
+
+  .mdc-bottom-navigation__label {
+    font-size: 12px !important;
   }
 
   /*.mdc-bottom-navigation__item:hover,
@@ -114,6 +118,6 @@ body {
     }
 
     .activeIcon {
-        background-color: #354b51;
+        background-color: #187bcd;
     }
 }
