@@ -3,7 +3,7 @@ function showPage(activity) {
 }
 
 function backToMain() {
-    window.location.href = "../more.html";
+    window.location.href = "../index.html";
 }
 
 function backToMainFromMore() {

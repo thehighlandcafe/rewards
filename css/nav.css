@@ -23,7 +23,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #fafcfe;
+    background-color: #d6e4f7;
     display: flex;
     justify-content: space-around;
     z-index: 1000;
@@ -38,7 +38,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 8px;
-    color: #313538;
+    color: #363f4e;
     transition: color 0.2s;
     cursor: pointer;
   }
@@ -61,7 +61,7 @@ body {
   }
 
   .activeIcon {
-    background-color: #cfe6f0;
+    background-color: #187bcd;
     width: 64px;
     height: 32px;
     border-radius: 50px;
@@ -72,20 +72,70 @@ body {
     height: 32px;
   }
 
-/*  .top-bar {
-    background-color: #2196f3;
+.top-bar {
+    background-color: #d6e4f7;
     position: fixed;
     width: 100%;
-    color: #fff;
+    top: 0;
+    color: #1c2120;
     padding: 15px;
-  }
+    z-index: 1;
+}
 
-  .top-bar__title {
+.top-bar__title {
     font-size: 20px;
-    font-weight: 500;
     margin: 0;
-    text-align: left;
-  }*/
+    font-weight: normal;
+}
+
+.top-bar .icon {
+  text-align: right !important;
+}
+
+.left {
+  float: left;
+  text-align: left;
+}
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.section {
+  width: 50%;
+}
+
+.toolbaricon {
+  position: absolute;
+  width: 200px;
+  height: 235px;
+  float: right;
+  border-radius: 20px;
+  background-color: #fef8fe;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  display: none;
+  color: black;
+  text-align: left;
+  box-shadow: 0 0 3px #ccc;
+}
+
+.tb-button {
+  padding-left: 10px;
+}
+
+.tb-button i {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.toolbaricon h2 {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 17px;
+}
 
   /*Content*/
 
@@ -96,6 +146,7 @@ body {
     width: 100%;
     border: none;
     zoom: 0.6;
+    z-index: 0;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -110,7 +161,7 @@ body {
     }
 
     .mdc-bottom-navigation {
-        background-color: #1a1c1e;
+        background-color: #011c36;
     }
 
     .mdc-bottom-navigation__item {
@@ -119,5 +170,16 @@ body {
 
     .activeIcon {
         background-color: #187bcd;
+    }
+
+    .top-bar {
+      background-color: #011c36;
+      color: #cad9ef;
+    }
+
+    .toolbaricon {
+      background-color: #18141c;
+      color: #cad9ef;
+      box-shadow: 0 0 3px black;
     }
 }
