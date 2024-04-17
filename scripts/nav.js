@@ -2,7 +2,7 @@ function home() {
         //Showing home section
 
                 //Label
-        document.getElementById('homeLabel').style.display = "block";
+        //document.getElementById('homeLabel').style.display = "block";
                 //Icon
         document.getElementById('homeIcon').className = "activeIcon";
 
@@ -10,19 +10,19 @@ function home() {
     
             //Restaurant section
                 //Label
-        document.getElementById('restaurantLabel').style.display = "none";
+        //document.getElementById('restaurantLabel').style.display = "none";
                 //Icon
         document.getElementById('restaurantIcon').className = "inactiveIcon";
     
             //Hotel section
                 //Label
-        document.getElementById('hotelLabel').style.display = "none";
+        //document.getElementById('hotelLabel').style.display = "none";
                 //Icon
         document.getElementById('hotelIcon').className = "inactiveIcon";
     
             //Roomkey section
                 //Label
-        document.getElementById('roomkeyLabel').style.display = "none";
+        //document.getElementById('roomkeyLabel').style.display = "none";
                 //Icon
         document.getElementById('roomkeyIcon').className = "inactiveIcon";
 
@@ -52,7 +52,7 @@ function restaurant() {
             //Showing restaurant section
     
                 //Label
-        document.getElementById('restaurantLabel').style.display = "block";
+        //document.getElementById('restaurantLabel').style.display = "block";
                 //Icon
         document.getElementById('restaurantIcon').className = "activeIcon";
     
@@ -60,19 +60,19 @@ function restaurant() {
     
             //Home section
                 //Label
-        document.getElementById('homeLabel').style.display = "none";
+        //document.getElementById('homeLabel').style.display = "none";
                 //Icon
         document.getElementById('homeIcon').className = "inactiveIcon";
     
             //Hotel section
                 //Label
-        document.getElementById('hotelLabel').style.display = "none";
+        //document.getElementById('hotelLabel').style.display = "none";
                 //Icon
         document.getElementById('hotelIcon').className = "inactiveIcon";
     
             //Roomkey section
                 //Label
-        document.getElementById('roomkeyLabel').style.display = "none";
+        //document.getElementById('roomkeyLabel').style.display = "none";
                 //Icon
         document.getElementById('roomkeyIcon').className = "inactiveIcon";
 
@@ -101,7 +101,7 @@ function hotel() {
         //Showing hotel section
     
                 //Label
-        document.getElementById('hotelLabel').style.display = "block";
+        //document.getElementById('hotelLabel').style.display = "block";
                 //Icon
         document.getElementById('hotelIcon').className = "activeIcon";
     
@@ -109,19 +109,19 @@ function hotel() {
     
             //Home section
                 //Label
-        document.getElementById('homeLabel').style.display = "none";
+        //document.getElementById('homeLabel').style.display = "none";
                 //Icon
         document.getElementById('homeIcon').className = "inactiveIcon";
     
             //Restaurant section
                 //Label
-        document.getElementById('restaurantLabel').style.display = "none";
+        //document.getElementById('restaurantLabel').style.display = "none";
                 //Icon
         document.getElementById('restaurantIcon').className = "inactiveIcon";
 
             //Roomkey section
                 //Label
-        document.getElementById('roomkeyLabel').style.display = "none";
+        //document.getElementById('roomkeyLabel').style.display = "none";
                 //Icon
         document.getElementById('roomkeyIcon').className = "inactiveIcon";
     
@@ -150,7 +150,7 @@ function roomkey() {
         //Showing roomkey section
 
                 //Label
-        document.getElementById('roomkeyLabel').style.display = "block";
+        //document.getElementById('roomkeyLabel').style.display = "block";
                 //icon
         document.getElementById('roomkeyIcon').className = "activeIcon";
 
@@ -158,19 +158,19 @@ function roomkey() {
 
             //Home section
                 //Label
-        document.getElementById('homeLabel').style.display = "none";
+        //document.getElementById('homeLabel').style.display = "none";
                 //Icon
         document.getElementById('homeIcon').className = "inactiveIcon";
     
             //Restaurant section
                 //Label
-        document.getElementById('restaurantLabel').style.display = "none";
+        //document.getElementById('restaurantLabel').style.display = "none";
                 //Icon
         document.getElementById('restaurantIcon').className = "inactiveIcon";
 
             //Hotel section
                 //Label
-        document.getElementById('hotelLabel').style.display = "none";
+        //document.getElementById('hotelLabel').style.display = "none";
                 //Icon
         document.getElementById('hotelIcon').className = "inactiveIcon";
 
@@ -239,27 +239,27 @@ function moreNew() {
         //Opening and closing
 function showToolbaricon(dialog) {
         document.getElementById(dialog).style.display = "block";
-        document.getElementById("moreNavigationIcon").className = "activeIcon";
-        document.getElementById("moreNavLabel").style.display = "block";
-        document.getElementById("content").src = "https://thehighlandcafe.github.io/hioswebcore/welcome.html";
+        //document.getElementById("moreNavigationIcon").className = "activeIcon";
+        //document.getElementById("moreNavLabel").style.display = "block";
+        //document.getElementById("content").src = "https://thehighlandcafe.github.io/hioswebcore/welcome.html";
         
-        document.getElementById("homeIcon").className = "inactiveIcon";
-        document.getElementById("homeLabel").style.display = "none";
+        //document.getElementById("homeIcon").className = "inactiveIcon";
+        //document.getElementById("homeLabel").style.display = "none";
 
-        document.getElementById("restaurantIcon").className = "inactiveIcon";
-        document.getElementById("restaurantLabel").style.display = "none";
+        //document.getElementById("restaurantIcon").className = "inactiveIcon";
+        //document.getElementById("restaurantLabel").style.display = "none";
 
-        document.getElementById("hotelIcon").className = "inactiveIcon";
-        document.getElementById("hotelLabel").style.display = "none";
+        //document.getElementById("hotelIcon").className = "inactiveIcon";
+        //document.getElementById("hotelLabel").style.display = "none";
 
-        document.getElementById("roomkeyIcon").className = "inactiveIcon";
-        document.getElementById("roomkeyLabel").style.display = "none";
+        //document.getElementById("roomkeyIcon").className = "inactiveIcon";
+        //document.getElementById("roomkeyLabel").style.display = "none";
 }
 
 function hideToolbaricon(dialog) {
         document.getElementById(dialog).style.display = "none";
-        document.getElementById("moreNavigationIcon").className = "inactiveIcon";
-        document.getElementById("moreNavLabel").style.display = "none";
+        //document.getElementById("moreNavigationIcon").className = "inactiveIcon";
+        //document.getElementById("moreNavLabel").style.display = "none";
 }
 
         //Buttons on the dialog
