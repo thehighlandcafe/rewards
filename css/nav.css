@@ -64,7 +64,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 8px;
-    color: #363f4e;
+    color: var(--onPrimaryContainer);
     transition: color 0.2s;
     cursor: pointer;
   }
@@ -138,12 +138,12 @@ body {
   height: 100%;
   float: right;
   border-radius: 0px 25px 25px 0px;
-  background-color: #fef8fe;
+  background-color: var(--surface);
   /*top: 10px;
   right: 10px;*/
   z-index: 1;
   display: none;
-  color: black;
+  color: var(--onSurface);
   text-align: left;
 }
 
@@ -203,29 +203,8 @@ body {
       --onSurfaceVarient: #c3c6cf;
     }
 
-	html {
-		background-color: #131314;
-    }
-
-    .mdc-bottom-navigation {
-        background-color: #011c36;
-    }
-
-    .mdc-bottom-navigation__item {
-        color: #cbdfe1;
-    }
-
-    .activeIcon {
-        background-color: #187bcd;
-    }
-
     .top-bar {
       background-color: #011c36;
-      color: #cad9ef;
-    }
-
-    .toolbaricon {
-      background-color: #18141c;
       color: #cad9ef;
     }
 }
