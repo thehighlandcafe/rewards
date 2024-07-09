@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 /*COLOURS*/
 :root {
@@ -27,7 +27,7 @@
 
 html {
     height: 100%;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
     user-select: none;
     -webkit-user-select: none; /*Safari*/
     -moz-user-select: none; /*Firefox*/
