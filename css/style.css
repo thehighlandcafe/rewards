@@ -44,18 +44,6 @@
     float: right;
 }
 
-@media (prefers-color-scheme: dark) {
-    .button {
-        border: none;
-        color: white;
-        background-color: #354A54;
-    }
-
-    .button:hover {
-        background-color: #5A6B74;
-    }
-}
-
 /*Translucent Box*/
 .translucentBox {
     padding: 10px;
