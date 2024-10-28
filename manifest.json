@@ -1,6 +1,6 @@
 {
-    "name": "HiOSMobile",
-    "short_name": "HiOSMobile",
+    "name": "HiRewards",
+    "short_name": "HiRewards",
     "start_url": "index.html",
     "scope": "./",
     "icons": [
