@@ -24,7 +24,7 @@ function home() {
                 //Label
         //document.getElementById('roomkeyLabel').style.display = "none";
                 //Icon
-        document.getElementById('roomkeyIcon').className = "inactiveIcon";
+        //document.getElementById('roomkeyIcon').className = "inactiveIcon";
 
         /*    //More section
                 //Label
@@ -33,7 +33,7 @@ function home() {
         document.getElementById('moreIcon').className = "inactiveIcon";*/
     
         //Changing the iframe source
-        document.getElementById('content').src = "https://thehighlandcafe.github.io/hioswebcore/welcome.html";
+        document.getElementById('content').src = "https://thehighlandcafe.github.io/hioswebcore/rewards/home.html";
     
         //Changing the page's titles to match the section
         document.title = "HiOSMobile | Home";
@@ -74,7 +74,7 @@ function restaurant() {
                 //Label
         //document.getElementById('roomkeyLabel').style.display = "none";
                 //Icon
-        document.getElementById('roomkeyIcon').className = "inactiveIcon";
+        //document.getElementById('roomkeyIcon').className = "inactiveIcon";
 
         /*    //More section
                 //Label
@@ -83,10 +83,10 @@ function restaurant() {
         document.getElementById('moreIcon').className = "inactiveIcon";*/
     
         //Changing the iframe source
-        document.getElementById('content').src = "https://thehighlandcafe.github.io/hioswebcore/restaurant.html";
+        document.getElementById('content').src = "https://thehighlandcafe.github.io/hioswebcore/rewards/offers.html";
     
         //Changing the page's titles to match the section
-        document.title = "HiOSMobile | Food";
+        document.title = "HiRewards | Offers";
         document.getElementById('pageTitle').textContent = "Food";
     
         //Hiding More container and showing iframe
@@ -123,7 +123,7 @@ function hotel() {
                 //Label
         //document.getElementById('roomkeyLabel').style.display = "none";
                 //Icon
-        document.getElementById('roomkeyIcon').className = "inactiveIcon";
+        //document.getElementById('roomkeyIcon').className = "inactiveIcon";
     
         /*    //More section
                 //Label
@@ -132,10 +132,10 @@ function hotel() {
         document.getElementById('moreIcon').className = "inactiveIcon";*/
     
         //Changing the iframe source
-        document.getElementById('content').src = "https://thehighlandcafe.github.io/hioswebcore/hotelactivities.html";
+        document.getElementById('content').src = "https://thehighlandcafe.github.io/hioswebcore/rewards/account.html";
     
         //Changing the page's titles to match the section
-        document.title = "HiOSMobile | Hotel";
+        document.title = "HiRewards | Account";
         document.getElementById('pageTitle').textContent = "Hotel";
     
         //Hiding More container and showing iframe
@@ -146,7 +146,7 @@ function hotel() {
         document.getElementById('dialog').style.display = "none";
 }
 
-function roomkey() {
+/*function roomkey() {
         //Showing roomkey section
 
                 //Label
@@ -187,7 +187,7 @@ function roomkey() {
 
         //Hiding toolbaricon
         document.getElementById('dialog').style.display = "none";
-}
+}*/
     
 /*function more() {
         //Showing more section
