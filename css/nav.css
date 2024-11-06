@@ -1,33 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 /*COLOURS*/
 :root {
-	--primary: #0061a6;
-	--onPrimary: #ffffff;
-	--primaryContainer: #d2e4ff;
-	--onPrimaryContainer: #001c37;
-	--secondary: #535f70;
-	--onSecondary: #ffffff;
-	--secondaryContainer: #d7e3f8;
-	--onSecondaryContainer: #101c2b;
-	--tertiary: #6c5778;
-	--onTertiary: #ffffff;
-	--tertiaryContainer: #f3daff;
-	--onTertiaryContainer: #251431;
-	--background: #fdfcff;
-	--onBackground: #1a1c1e;
-	--surface: #fdfcff;
-	--onSurface: #1a1c1e;
-	--outline: #73777f;
-	--surfaceVarient: #dfe2eb;
-	--onSurfaceVarient: #43474e;
+	--primary: rgb(142 73 88);
+	--onPrimary: rgb(255 255 255);
+	--primaryContainer: rgb(255 217 222);
+	--onPrimaryContainer: rgb(58 7 23);
+	--secondary: rgb(117 86 91);
+	--onSecondary: rgb(255 255 255);
+	--secondaryContainer: rgb(255 217 222);
+	--onSecondaryContainer: rgb(43 21 25);
+	--tertiary: rgb(122 88 50);
+	--onTertiary: rgb(255 255 255);
+	--tertiaryContainer: rgb(255 220 187);
+	--onTertiaryContainer: rgb(43 23 0);
+	--background: rgb(255 248 247);
+	--onBackground: rgb(34 25 27);
+	--surface: rgb(255 248 247);
+	--onSurface: rgb(34 25 27);
+	--outline: rgb(132 115 117);
+	--surfaceVarient: rgb(243 221 224);
+	--onSurfaceVarient: rgb(82 67 69);   
 }
 
 /*HTML CSS CODE*/
 
 html {
     height: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit', sans-serif;
     user-select: none;
     -webkit-user-select: none; /*Safari*/
     -moz-user-select: none; /*Firefox*/
@@ -188,13 +188,13 @@ body {
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --primary: #a0c9ff;
-      --onPrimary: #00325a;
-      --primaryContainer: #253141;
-      --onPrimaryContainer: #d2e4ff;
-      --secondary: #bbc7db;
-      --onSecondary: #253141;
-      --secondaryContainer: #3c4858;
+      --primary: rgb(255 178 191);
+      --onPrimary: rgb(86 29 43);
+      --primaryContainer: rgb(113 51 65);
+      --onPrimaryContainer: rgb(255 217 222);
+      --secondary: rgb(228 189 194);
+      --onSecondary: rgb(67 41 46);
+      --secondaryContainer: rgb(92 63 68);
       --onSecondaryContainer: #d7e3f8;
       --tertiary: #d7bde4;
       --onTertiary: #3b2947;
