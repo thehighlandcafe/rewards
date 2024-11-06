@@ -1,6 +1,6 @@
 {
-    "name": "HiOSMobile",
-    "short_name": "HiOSMobile",
+    "name": "HiRewards",
+    "short_name": "HiRewards",
     "start_url": "index.html",
     "scope": "./",
     "icons": [
@@ -35,7 +35,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#011c36",
-    "background_color": "#131314",
+    "theme_color": "#713341",
+    "background_color": "#713341",
     "display": "standalone"
 }
